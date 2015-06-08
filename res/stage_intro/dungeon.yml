@@ -1,0 +1,28 @@
+dungeon:
+  enemies: []
+  props: []
+  zone:
+    rooms:
+      - key: {row: 0, col: 0}
+        room: !include 1.yml
+
+      - key: {row: 0, col: 1}
+        room: !include 2.yml
+
+      - key: {row: 0, col: 2}
+        room: !include 3.yml
+
+      - key: {row: 0, col: 3}
+        room: !include 4.yml
+
+      - key: {row: 1, col: 3}
+        room: !include 5.yml
+
+      - key: {row: 1, col: 2}
+        room: !include 6.yml
+
+      - key: {row: 1, col: 1}
+        room: !include 6.yml
+
+      - key: {row: 1, col: 0}
+        room: !include 6.yml

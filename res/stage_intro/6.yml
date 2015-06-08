@@ -1,0 +1,4 @@
+sprites:
+tiles:
+  - {type: 0, index: 0}
+map: !transform maps/6.csv

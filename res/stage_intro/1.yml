@@ -1,0 +1,6 @@
+sprites:
+  - {red: 1.0, green: 1.0, blue: 1.0, width: 16.0, height: 16.0}
+tiles:
+  - {type: 0, index: 0}
+  - {type: 1, index: 0}
+map: !transform maps/1.csv
